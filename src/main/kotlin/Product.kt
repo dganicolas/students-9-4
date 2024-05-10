@@ -1,8 +1,9 @@
-class Product(id: Int,
-              name: String,
-              price: Float,
-              description: String,
-              brand: String,
-              category: String) {
+data class Product(
+    val id: Int,
+    val name: String,
+    val price: Float,
+    val description: String,
+    val brand: String,
+    val category: String) {
 
 }
